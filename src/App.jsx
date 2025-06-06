@@ -4,7 +4,7 @@ import AddResidentModal from "./components/AddResidentModal";
 import Toast from "./components/Toast";
 import { Toaster, toast } from "react-hot-toast";
 
-const API_BASE = "http://localhost:1000/residents";
+const API_BASE = "https://residents-book-backend-2.onrender.com/residents";
 
 export default function App() {
   const [showModal, setShowModal] = useState(false);
